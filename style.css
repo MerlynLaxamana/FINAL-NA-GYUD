@@ -1,0 +1,109 @@
+
+/* Style for the h2 element */
+h2 {
+
+    background-color: #000000; /* Set background color to black */
+    color: #ffffff; /* Set text color to white */
+    padding: 30px 35px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-image: ('bg.jpg');
+}
+
+/* Style for the horizontal rule */
+hr {
+    border: 0;
+    border-top: 1px solid #000000; /* Set border color to black */
+    margin-bottom: 40px;
+}
+
+/* Style for the container div, used for centering */
+div.container {
+    width: 100%; /* Take up the full width of the viewport */
+    height: 100vh; /* Take up the full height of the viewport */
+    font-family: 'Raleway', sans-serif;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #ffffff; /* Set background color to white */
+}
+
+/* Style for the main content div */
+div.main {
+    width: 300px;
+    padding: 10px 50px 25px;
+    border: 2px solid #000000; /* Set border color to black */
+    border-radius: 10px;
+    font-family: raleway;
+    margin-top: 0; /* Remove margin-top to center vertically */
+    background-color: #ffffff; /* Set background color to white */
+    color: #000000; /* Set text color to black */
+}
+
+/* Style for text and email input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #000000; /* Set border color to black */
+    color: #000000; /* Set text color to black */
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #ffffff; /* Set background color to white */
+}
+
+/* Style for labels */
+label {
+    color: #000000; /* Set label text color to black */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Style for center-aligned elements */
+center {
+    font-size: 32px;
+}
+
+/* Style for the "Note" text */
+.note {
+    color: red;
+}
+
+/* Style for the "Valid" text */
+.valid {
+    color: rgb(41, 39, 44);
+}
+
+/* Style for the "Back" button */
+.back {
+    text-decoration: none;
+    border: 1px solid #000000; /* Set border color to black */
+    background-color: #ffffff; /* Set background color to white */
+    padding: 3px 20px;
+    border-radius: 2px;
+    color: #000000; /* Set text color to black */
+}
+
+/* Style for the login button */
+input[type=button] {
+    font-size: 16px;
+    background: linear-gradient(#000000 5%, #000000 100%); /* Set button gradient to black */
+    border: 1px solid #000000; /* Set border color to black */
+    color: #ffffff; /* Set text color to white */
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline: none;
+}
+
+/* Style for the login button on hover */
+input[type=button]:hover {
+    background: linear-gradient(#000000 5%, #000000 100%); /* Set hover gradient to black */
+}
+
+
